@@ -8,8 +8,8 @@ from torch.utils.data import Dataset, DataLoader
 import torch.optim as optim
 import torch.nn as nn
 from torchvision import transforms
-#from dataset import HPAdataset
-#from model import HPANet
+from dataset import HPAdataset
+from model import HPANet
 
 seed=42
 torch.manual_seed(seed)
